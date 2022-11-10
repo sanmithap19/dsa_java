@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f0a429-e7f3-4a8c-932b-fe60b74bb954" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/twoDArray/abstrac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twoDArray/binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/bindec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/buysell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/chess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +30,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="twoDArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.abstrac">
+  <component name="RunManager" selected="Application.chess">
     <configuration name="abstrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoDArray.abstrac" />
+      <module name="dsa_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoDArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDArray.chess" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
@@ -70,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chess" />
         <item itemvalue="Application.abstrac" />
         <item itemvalue="Application.matrix" />
       </list>
