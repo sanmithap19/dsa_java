@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f0a429-e7f3-4a8c-932b-fe60b74bb954" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/twoDArray/bindec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twoDArray/buysell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twoDArray/chess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/calci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/constructer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/decbin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/hubuy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/largest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/linear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/pairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/rainwater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDArray/reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +49,9 @@
       <recent name="twoDArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.chess">
-    <configuration name="abstrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDArray.abstrac" />
+  <component name="RunManager" selected="Application.subarrays">
+    <configuration name="linear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDArray.linear" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDArray.chess" />
+    <configuration name="pairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDArray.pairs" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +76,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDArray.matrix" />
+    <configuration name="rainwater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDArray.rainwater" />
+      <module name="dsa_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoDArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDArray.reverse" />
+      <module name="dsa_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoDArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="subarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDArray.subarrays" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
@@ -83,9 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.chess" />
-        <item itemvalue="Application.abstrac" />
-        <item itemvalue="Application.matrix" />
+        <item itemvalue="Application.subarrays" />
+        <item itemvalue="Application.reverse" />
+        <item itemvalue="Application.rainwater" />
+        <item itemvalue="Application.pairs" />
+        <item itemvalue="Application.linear" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668100987687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new">
+      <created>1668102793235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668102793235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
