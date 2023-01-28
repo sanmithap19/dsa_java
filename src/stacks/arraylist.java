@@ -1,10 +1,10 @@
 package stacks;
-import java.util.Stack;
-import java.util.arraylist;
+
+import java.util.*;
 public class arraylist {
     static class stack{
-        static arraylist<integer> list=new arraylist<>();
-        public static boolean isempty() {
+        static ArrayList<Integer> list=new ArrayList<>();
+        public static boolean isEmpty() {
             return list.size()==0;
 
         }
@@ -25,13 +25,13 @@ public class arraylist {
 
         }
     }
-    public static void main(string args[]){
+    public static void main(String args[]){
         stack s =new stack();
         s.push(1);
         s.push(2);
         s.push(3);
-        while(!s.isempty()){
-            system.out.println(s.peek());
+        while(!s.isEmpty()){
+            System.out.println(s.peek());
             s.pop();
         }
 
