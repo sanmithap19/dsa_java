@@ -1,6 +1,6 @@
 package stacks;
 import java.util.*;
-public class StackB {
+public class linkedlist{
     static class Node {
         int data;
         Node next;
@@ -59,7 +59,7 @@ public class StackB {
         }
     }
 
-    public class linkedlist {
+
 
 
         public static void main(String args[]) {
@@ -75,7 +75,7 @@ public class StackB {
 
         }
     }
-}
+
 
 
 

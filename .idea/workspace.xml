@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f0a429-e7f3-4a8c-932b-fe60b74bb954" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/stacks/StackB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stacks/simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/parenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/push.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/reverseastack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/stock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stacks/arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/arraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacks/StackB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacks/simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/simple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +47,13 @@
       <recent name="twoDArray" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="linear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDArray.linear" />
+  <component name="RunManager" selected="Application.duplicate">
+    <configuration name="duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.duplicate" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoDArray.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDArray.pairs" />
+    <configuration name="parenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.parenthesis" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoDArray.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rainwater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDArray.rainwater" />
+    <configuration name="reverseastack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.reverseastack" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoDArray.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDArray.reverse" />
+    <configuration name="stacks.reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.reverse" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoDArray.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDArray.subarrays" />
+    <configuration name="stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.stock" />
       <module name="dsa_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoDArray.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.subarrays" />
-        <item itemvalue="Application.reverse" />
-        <item itemvalue="Application.rainwater" />
-        <item itemvalue="Application.pairs" />
-        <item itemvalue="Application.linear" />
+        <item itemvalue="Application.duplicate" />
+        <item itemvalue="Application.parenthesis" />
+        <item itemvalue="Application.stock" />
+        <item itemvalue="Application.reverseastack" />
+        <item itemvalue="Application.stacks.reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674883906136</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new">
+      <created>1674891678847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674891678847</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
